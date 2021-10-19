@@ -1,0 +1,170 @@
+.itenav{
+    padding: 1rem 2rem;
+    background-color: rgb(45, 45, 253);
+}
+.itemnav:hover{
+    text-decoration: none;
+}
+.itemnav2:hover{
+    text-decoration: none;
+}
+.itemnav2{
+    margin-left: auto;
+}
+.itemnav2 span{
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+}
+.inav{
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 15px;
+}
+.ipro{
+    box-shadow: 0 0 5px gray;
+}
+.ipro{
+    display: block;
+    height: 25vh;
+}
+.iproleft img{
+    height: 25vh;
+}
+.iproright{
+    padding: 0.5rem;
+    height: 25vh;
+}
+.ipr1{
+    padding-top: 2rem;
+}
+.ipr2{
+    padding-top: 2rem;
+    display: grid;
+    place-items: center;
+}
+@media screen and (max-width: 600px) {
+    .iproright{
+        padding: 0;
+        padding-left: 0.5rem;
+        height: 25vh;
+    }
+    .ipr1 .prd{
+        margin-top: -0.5rem;
+    }
+    .ipr1 .pri{
+        margin-top: -1rem;
+    }
+}
+
+.i2pro{
+    display: block;
+    height: 40vh;
+    box-shadow: 0 0 5px gray;
+}
+.ipro2left img{
+    height: 40vh;
+}
+.ipro2left{
+    height: 40vh;
+}
+.ipr22{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ipro3{
+    display: block;
+    height: 25vh;
+    box-shadow: 0 0 5px gray;
+}
+.ipro3 img{
+    height: 25vh;
+}
+.ipr3{
+    padding: 2rem;
+}
+.ipr233{
+    margin-top: 2rem;
+}
+.ipr233 input{
+    border-radius: 15px;
+    width: 5rem;
+    padding-left: 0.4rem;
+}
+.ipr233 i{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 4rem;
+    background:rgb(209, 209, 209);
+    line-height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 35%;
+}
+.ipr233 i:hover{
+    color: red;
+}
+.ipro33{
+    width: 15vw;
+    height: 25vh;
+    box-shadow: 0 0 5px gray;
+}
+.ipro33 div{
+    margin-top: 3rem;
+}
+.ipro33 button{
+    height: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(45, 45, 253);
+    color: white;
+    border-radius: 10px;
+    width: 12rem;
+    outline: none;
+    border: none;
+}
+@media screen and (max-width: 992px) {
+    .ipr1,.ipr2{
+        padding-top: 0;
+    }
+    .ipr3{
+        padding: 0;
+        padding-left: 1rem;
+    }
+    .ipr233{
+        margin-top: 0rem;
+    }
+    .ipr233 div{
+        margin-top: -1.4rem;
+    }
+    .ipr233 i{
+        margin-top: 2rem;
+    }
+    .ipro33 h4{
+        font-size: 1rem;
+    }
+    .ipro33 div{
+        margin-top: 2rem;
+    }
+    .ipro33{
+        width: 70vw;
+        margin-left: 8.4%;
+    }
+    .ipro33 button{
+        width: 10rem;
+        margin-top: 0.2rem;
+    }
+    .ipro3right .capda{
+        margin-top: -0.5rem;
+    }
+    .ipro3right .capri{
+        margin-top: -1rem;
+    }
+}
